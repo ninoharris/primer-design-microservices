@@ -1,0 +1,25 @@
+{
+  "name": "primer-design-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js --presets es2015,stage-2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "firebase": "^4.12.1",
+    "helmet": "^3.12.0",
+    "http-status": "^1.0.1",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
